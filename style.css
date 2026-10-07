@@ -128,6 +128,30 @@ header p {
     margin-top: 6px;
 }
 
+/* Language switcher (sits directly under the header; mirrors .footer-nav) */
+.lang-switch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 10px;
+    margin-top: -20px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.lang-switch a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.lang-switch a:hover {
+    color: var(--primary-color);
+}
+
 /* Glass panel Card */
 .card {
     background: var(--glass-bg);
